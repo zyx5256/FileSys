@@ -1,0 +1,11 @@
+connect to localhost 10003
+MFS_Unlink  CLIENT=======>SERVER:: sent message (6402)
+MFS_Unlink pinum 8 name dir 
+try 2 
+result rc -1 
+MFS_Unlink  CLIENT=======>SERVER:: sent message (6402)
+MFS_Unlink pinum 8 name dir 
+try 1 
+result rc 6404 
+MFS_Unlink  CLIENT<======SERVER:: read message 6404 bytes (message: ' 12 -1 ')
+PASSED
